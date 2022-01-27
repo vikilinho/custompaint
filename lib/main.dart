@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:sample/views/circle_page.dart';
+import 'package:sample/views/curve_page.dart';
 import 'package:sample/views/homepage.dart';
 import 'package:sample/views/rect_page.dart';
+import 'package:sample/views/smiley.dart';
 import 'package:sample/views/triangle_page.dart';
 
 void main() {
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Triangle(),
+      home: SmileyPage(),
     );
   }
 }
